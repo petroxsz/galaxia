@@ -1,0 +1,48 @@
+GALAXIA 3D - REFERENCIA DO VIDEO
+Compatibilidade: Unity 6.5 (6000.5.5f1) | Built-in Render Pipeline
+
+IMPORTANTE: NOVO PROJETO INDEPENDENTE. NAO SUBSTITUI OS ARQUIVOS ANTERIORES.
+
+COMO ABRIR
+1. Extraia o arquivo ZIP na pasta que voce preferir.
+2. No Unity Hub, clique Add > Add project from disk e escolha a pasta "Galaxia_Referencia_6000".
+3. Abra pela Unity 6000.5.5f1 e aguarde os scripts importarem.
+4. A cena "Assets/Scenes/GalaxiaReferencia.unity" sera gerada automaticamente na primeira importacao.
+5. Abra "Assets/Scenes/GalaxiaReferencia.unity" e clique em Play.
+6. Se a cena nao surgir, use Galaxia do Video > Criar ou recriar cena fiel ao video.
+
+VISUAL
+- Tres bracos espirais salmao/rosa com estrelas douradas e pontos coloridos.
+- Cinco aneis de particulas, com estrelas brilhantes dispersas.
+- Nucleo branco-rosado e halo rosa difuso (sem cilindro ou esfera opaca).
+- Fios de luz serpenteando e se elevando no centro.
+- Dois rastros ocasionais de energia azul e coral nas bordas.
+- Estrelas frias no fundo escuro.
+- Bloom HDR de duas escalas, sem dependencias externas, via Built-in Render Pipeline.
+- Camera com percurso cinematografico de 32 segundos, com aproximacao e afastamento.
+
+CONTROLES NO PLAY
+C: liga/desliga camera cinematografica
+Espaco: pausa/reinicia a animacao da camera cinematografica
+Clique esquerdo + mouse: orbita manual
+Roda do mouse: zoom manual
+WASD ou Q/E: ajustes manuais da camera
+R: reinicia o percurso cinematografico
+
+PERSONALIZACAO
+Selecione GALAXIA - REFERENCIA DO VIDEO no Inspector.
+Ajuste cores/brilho/tamanho/velocidades no componente GalaxiaDoVideo.
+Para modificar formato e quantidade de pontos, entre em Play novamente (ou use menu de contexto
+Recriar galaxia com a referencia).
+
+Selecione Camera cinematografica:
+- CameraDoVideo: camera automatica, orbita, controles.
+- BloomDaGalaxia: intensidade/limiar do efeito luminoso.
+
+OBSERVACOES
+Este projeto foi escrito e revisado como arquivos Unity, mas NAO foi executado dentro do Unity Editor
+neste ambiente. A referencia em video foi analisada por quadros: o objetivo e a fidelidade visual,
+mas a iluminacao final pode variar dependendo da placa de video/qualidade de renderizacao.
+
+Este projeto usa o renderizador nativo Built-in; nao migre para URP sem adaptar BloomDaGalaxia.
+Para mais desempenho, selecione Display 1 -> Full HD (1920 x 1080) na aba Game, se estiver em 4K.
